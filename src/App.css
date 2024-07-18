@@ -9,3 +9,15 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.sub-heading {
+  padding: 5px;
+  text-align: left;
+}
+
+.grid-para {
+  padding: 5px;
+  text-align: left;
+  text-align: justify;
+  /* border: 1px solid red; */
+}
