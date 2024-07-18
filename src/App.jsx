@@ -1,12 +1,15 @@
-import { useState } from "react";
+import { Header } from "./components/Header";
+import { About } from "./components/About";
+
 import "./App.css";
 
-function App() {
+export function App() {
   return (
     <>
-      <div>TESTING</div>
+      <Header />
+      <main className="main">
+        <About />
+      </main>
     </>
   );
 }
-
-export default App;

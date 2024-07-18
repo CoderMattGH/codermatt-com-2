@@ -1,0 +1,16 @@
+.about-para,
+.sub-heading {
+  padding: 5px;
+}
+
+.contact-me {
+  margin-top: 15px;
+  padding: 5px;
+  font-size: 1.2rem;
+}
+
+.email-address {
+  font-weight: bold;
+  font-size: 1.8rem;
+  padding: 5px;
+}
