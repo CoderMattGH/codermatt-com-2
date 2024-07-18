@@ -1,16 +1,31 @@
+.about-container {
+  padding: 0px 10px 5px 10px;
+}
+
 .about-para,
 .sub-heading {
   padding: 5px;
+  text-align: left;
 }
 
 .contact-me {
   margin-top: 15px;
-  padding: 5px;
   font-size: 1.2rem;
 }
 
 .email-address {
   font-weight: bold;
   font-size: 1.8rem;
-  padding: 5px;
+}
+
+.grid-paragraph-container {
+  display: grid;
+  grid-template-columns: 48% 48%;
+  /* gap: 40px; */
+  justify-content: space-between;
+}
+
+.about-para {
+  text-align: justify;
+  /* border: 1px solid red; */
 }

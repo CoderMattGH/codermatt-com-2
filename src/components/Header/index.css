@@ -2,7 +2,8 @@
   border: 1px solid green;
 
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto;
+  gap: 10px;
   align-items: center;
   justify-items: center;
 
@@ -11,14 +12,25 @@
 }
 
 .header div {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .nav {
   list-style-type: none;
+  font-size: 1.2rem;
+  font-weight: bold;
 
   display: grid;
-  grid-template-columns: auto auto auto auto;
-  gap: 15px;
+  grid-template-columns: auto auto auto;
+  gap: 25px;
   align-content: center;
+}
+
+.nav-link {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
+
+.nav-link:hover {
+  text-decoration: none;
 }

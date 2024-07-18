@@ -8,10 +8,21 @@ export function Header() {
       </div>
       <div>
         <nav className="nav">
-          <li className="nav__li">About</li>
-          <li className="nav__li">Projects</li>
-          <li className="nav__li">GitHub</li>
-          <li className="nav__li">Contact</li>
+          <li className="nav__li">
+            <a className="nav-link" href="#">
+              About
+            </a>
+          </li>
+          <li className="nav__li">
+            <a className="nav-link" href="#">
+              Projects
+            </a>
+          </li>
+          <li className="nav__li">
+            <a className="nav-link" href="#">
+              Links
+            </a>
+          </li>
         </nav>
       </div>
     </header>
