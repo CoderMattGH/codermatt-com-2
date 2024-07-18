@@ -2,12 +2,6 @@
   padding: 0px 10px 5px 10px;
 }
 
-.about-para,
-.sub-heading {
-  padding: 5px;
-  text-align: left;
-}
-
 .contact-me {
   margin-top: 15px;
   font-size: 1.2rem;
@@ -23,9 +17,4 @@
   grid-template-columns: 48% 48%;
   /* gap: 40px; */
   justify-content: space-between;
-}
-
-.about-para {
-  text-align: justify;
-  /* border: 1px solid red; */
 }
