@@ -55,6 +55,11 @@
   border: 8px solid lightgray;
 }
 
+.youtube-embed__video:hover {
+  border: 8px solid rgb(230, 230, 230);
+  opacity: 0.9;
+}
+
 .project-image-container {
   padding: 10px 4px 4px 4px;
   display: grid;
@@ -72,8 +77,17 @@
   object-fit: cover;
 }
 
+.project-image:hover {
+  border: 8px solid rgb(230, 230, 230);
+}
+
 .project-info-container {
   align-content: center;
+}
+
+.project-image-link:hover {
+  opacity: 0.9;
+  cursor: pointer;
 }
 
 .project-card {
