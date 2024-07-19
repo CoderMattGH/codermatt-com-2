@@ -25,3 +25,16 @@
 .about-section {
   padding: 0 10px 10px 10px;
 }
+
+.skill-logo-container {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  justify-content: space-between;
+  padding: 10px;
+  margin: 20px 0 20px 0;
+}
+
+.skill-logo {
+  height: 70px;
+  opacity: 0.5;
+}
