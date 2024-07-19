@@ -105,6 +105,59 @@ export function Projects() {
           <img className="project-image" src="/images/nc-news2.png"></img>
         </div>
       </article>
+
+      <article>
+        <h2 className="project-name">Matt's Online Aim Trainer</h2>
+        <p className="project-para">
+          Matt's Online Aim Trainer (MOAT) is a web application I created that
+          provides an aim-training service for gamers. The game consists of
+          randomly appearing targets that the user must click in order to accrue
+          points. The application provides a leaderboard and performance
+          statistics.
+        </p>
+        <p className="project-info">
+          <span className="project-info__label">Tech Stack (Front-end):</span>{" "}
+          React, Javascript.
+        </p>
+        <p className="project-info">
+          <span className="project-info__label">Tech Stack (Back-end):</span>{" "}
+          Java, Spring Boot, JPA, Mockito, JUnit, H2.
+        </p>
+        <p className="project-info">
+          <span className="project-info__label">Source Code (Front-end): </span>
+          <a
+            className="project-info-link"
+            target="_blank"
+            href="https://github.com/CoderMattGH/moat-fe"
+          >
+            https://github.com/CoderMattGH/moat-fe
+          </a>
+        </p>
+        <p className="project-info">
+          <span className="project-info__label">Source Code (Back-end): </span>
+          <a
+            className="project-info-link"
+            target="_blank"
+            href="https://github.com/CoderMattGH/moat-be"
+          >
+            https://github.com/CoderMattGH/moat-be
+          </a>
+        </p>
+        <p className="project-info">
+          <span className="project-info__label">Link: </span>
+          <a
+            className="project-info-link"
+            target="_blank"
+            href="https://aim.codermatt.com/"
+          >
+            https://aim.codermatt.com/
+          </a>
+        </p>
+        <div className="project-image-container">
+          <img className="project-image-moat" src="/images/moat1.png"></img>
+          <img className="project-image-moat" src="/images/moat2.png"></img>
+        </div>
+      </article>
     </div>
   );
 }
