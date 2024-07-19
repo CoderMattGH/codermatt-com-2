@@ -29,21 +29,15 @@ export function Projects() {
               by offering the user achievment badges and leaderboards.
             </p>
             <p className="project-info">
-              <span className="project-info__label">
-                Tech Stack (Front-end):
-              </span>{" "}
-              React Native, Expo, Axios, Javascript.
+              <span className="label">Tech Stack (Front-end):</span> React
+              Native, Expo, Axios, Javascript.
             </p>
             <p className="project-info">
-              <span className="project-info__label">
-                Tech Stack (Back-end):
-              </span>{" "}
-              Typescript, Express, Jest, Node-Postgres, PostgreSQL.
+              <span className="label">Tech Stack (Back-end):</span> Typescript,
+              Express, Jest, Node-Postgres, PostgreSQL.
             </p>
             <p className="project-info">
-              <span className="project-info__label">
-                Source Code (Front-end):{" "}
-              </span>
+              <span className="label">Source Code (Front-end): </span>
               <a
                 className="project-info-link"
                 target="_blank"
@@ -53,9 +47,7 @@ export function Projects() {
               </a>
             </p>
             <p className="project-info">
-              <span className="project-info__label">
-                Source Code (Back-end):{" "}
-              </span>
+              <span className="label">Source Code (Back-end): </span>
               <a
                 className="project-info-link"
                 target="_blank"
@@ -89,21 +81,15 @@ export function Projects() {
               similiar to Reddit.
             </p>
             <p className="project-info">
-              <span className="project-info__label">
-                Tech Stack (Front-end):
-              </span>{" "}
-              React, Axios, Javascript.
+              <span className="label">Tech Stack (Front-end):</span> React,
+              Axios, Javascript.
             </p>
             <p className="project-info">
-              <span className="project-info__label">
-                Tech Stack (Back-end):
-              </span>{" "}
-              Javascript, Express, Jest, Node-Postgres, PostgreSQL.
+              <span className="label">Tech Stack (Back-end):</span> Javascript,
+              Express, Jest, Node-Postgres, PostgreSQL.
             </p>
             <p className="project-info">
-              <span className="project-info__label">
-                Source Code (Front-end):{" "}
-              </span>
+              <span className="label">Source Code (Front-end): </span>
               <a
                 className="project-info-link"
                 target="_blank"
@@ -113,9 +99,7 @@ export function Projects() {
               </a>
             </p>
             <p className="project-info">
-              <span className="project-info__label">
-                Source Code (Back-end):{" "}
-              </span>
+              <span className="label">Source Code (Back-end): </span>
               <a
                 className="project-info-link"
                 target="_blank"
@@ -125,7 +109,7 @@ export function Projects() {
               </a>
             </p>
             <p className="project-info">
-              <span className="project-info__label">Link: </span>
+              <span className="label">Link: </span>
               <a
                 className="project-info-link"
                 target="_blank"
@@ -172,21 +156,15 @@ export function Projects() {
               performance statistics.
             </p>
             <p className="project-info">
-              <span className="project-info__label">
-                Tech Stack (Front-end):
-              </span>{" "}
-              React, Javascript.
+              <span className="label">Tech Stack (Front-end):</span> React,
+              Javascript.
             </p>
             <p className="project-info">
-              <span className="project-info__label">
-                Tech Stack (Back-end):
-              </span>{" "}
-              Java, Spring Boot, JPA, Mockito, JUnit, H2.
+              <span className="label">Tech Stack (Back-end):</span> Java, Spring
+              Boot, JPA, Mockito, JUnit, H2.
             </p>
             <p className="project-info">
-              <span className="project-info__label">
-                Source Code (Front-end):{" "}
-              </span>
+              <span className="label">Source Code (Front-end): </span>
               <a
                 className="project-info-link"
                 target="_blank"
@@ -196,9 +174,7 @@ export function Projects() {
               </a>
             </p>
             <p className="project-info">
-              <span className="project-info__label">
-                Source Code (Back-end):{" "}
-              </span>
+              <span className="label">Source Code (Back-end): </span>
               <a
                 className="project-info-link"
                 target="_blank"
@@ -208,7 +184,7 @@ export function Projects() {
               </a>
             </p>
             <p className="project-info">
-              <span className="project-info__label">Link: </span>
+              <span className="label">Link: </span>
               <a
                 className="project-info-link"
                 target="_blank"

@@ -1,25 +1,40 @@
 .about-container {
-  padding: 10px 10px 10px 10px;
+  margin-top: 10px;
   max-width: 700px;
 
   margin-left: auto;
   margin-right: auto;
+  display: grid;
+  gap: 10px;
 }
 
 .contact-me {
   margin-top: 15px;
-  font-size: 1.2rem;
+  font-size: 1.5Srem;
 }
 
 .email-address {
   font-weight: bold;
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
-.grid-paragraph-container {
+.about-sub-heading {
+  text-align: left;
+}
+
+.about-section {
+  padding: 0 10px 10px 10px;
+}
+
+.skill-logo-container {
   display: grid;
-  font-size: 0.95rem;
-  grid-template-columns: 48% 48%;
-  /* gap: 40px; */
+  grid-template-columns: repeat(5, auto);
   justify-content: space-between;
+  padding: 10px;
+  margin: 20px 0 20px 0;
+}
+
+.skill-logo {
+  height: 70px;
+  opacity: 0.5;
 }
