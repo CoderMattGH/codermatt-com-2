@@ -35,6 +35,35 @@
 }
 
 .skill-logo {
+  height: 50px;
+  opacity: 0.5;
+}
+
+.skill-list {
+  padding: 10px;
+  list-style-type: none;
+  display: grid;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  text-align: center;
+  gap: 40px;
+}
+
+.skill-list--languages {
+  grid-template-columns: repeat(5, auto);
+}
+
+.skill-list--testing {
+  grid-template-columns: repeat(3, auto);
+}
+
+.skill-list-img {
   height: 70px;
   opacity: 0.5;
+}
+
+.skill-list-name {
+  font-size: 0.95rem;
+  color: rgb(32, 32, 32);
+  padding: 5px;
 }

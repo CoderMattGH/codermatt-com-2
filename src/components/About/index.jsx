@@ -27,8 +27,8 @@ export function About() {
       <section className="about-section">
         <h2 className="sub-heading">I possess a range of technical skills.</h2>
         <p className="grid-para">
-          <span className="label">Languages: </span>Javascript, Typescript,
-          Java, C, HTML, CSS.
+          <span className="label">Languages: </span>Java, Javascript,
+          Typescript, C, HTML, CSS.
         </p>
         <p className="grid-para">
           <span className="label">Testing: </span>Test Driven Development (TDD),
@@ -51,15 +51,6 @@ export function About() {
           technical communication, SDL, agile and SCRUM methodologies.
         </p>
       </section>
-      <section className="about-section skill-logo-container">
-        <img className="skill-logo" src="./images/logos/java.svg" />
-        <img className="skill-logo" src="./images/logos/spring.svg" />
-        <img className="skill-logo" src="./images/logos/typescript.svg" />
-        <img className="skill-logo" src="./images/logos/javascript.svg" />
-        <img className="skill-logo" src="./images/logos/node.svg" />
-        {/* <img className="skill-logo" src="./images/logos/psql.svg" /> */}
-      </section>
-
       <section className="about-section">
         <h2 className="contact-me">CONTACT ME</h2>
         <p className="email-address">codermatt2000@outlook.com</p>
