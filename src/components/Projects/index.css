@@ -1,5 +1,12 @@
 .projects-container {
-  padding: 0px 10px 5px 10px;
+  padding: 10px 10px 10px 10px;
+
+  display: flex;
+  flex-flow: row wrap;
+
+  justify-content: center;
+  align-content: center;
+  gap: 30px 30px;
 }
 
 .project-name {
@@ -36,10 +43,11 @@
   /* border-radius: 20px; */
   overflow: hidden;
   height: 280px;
-  margin: 10px 0 10px 0;
   margin-left: auto;
   margin-right: auto;
-  padding: 10px;
+  padding: 0px 4px 0px 4px;
+  margin: 10px 0 4px 0;
+  width: 100.1%;
 }
 
 .youtube-embed__video {
@@ -48,7 +56,7 @@
 }
 
 .project-image-container {
-  padding: 10px;
+  padding: 10px 4px 4px 4px;
   display: grid;
   grid-template-columns: 48% 48%;
   justify-content: center;
@@ -57,22 +65,29 @@
 
 .project-image {
   width: 100%;
+  /* height: 202px; */
   height: 202px;
   border: 8px solid lightgray;
   border-radius: 20px;
   object-fit: cover;
 }
 
-.project-image-moat {
-  width: 100%;
-  height: 202px;
-  border: 8px solid lightgray;
-  border-radius: 20px;
-
-  object-fit: cover;
+.project-info-container {
+  align-content: center;
 }
 
 .project-card {
-  padding: 10px 0 15px 0;
-  border-bottom: 1px solid lightgray;
+  padding: 10px 20px 20px 20px;
+
+  border: 1px solid rgb(244, 244, 244);
+  border-radius: 20px;
+
+  max-width: 630px;
+  flex: 0 1 auto;
+  align-self: auto;
+
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr auto;
+  gap: 5px;
 }

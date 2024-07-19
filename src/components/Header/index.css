@@ -1,6 +1,4 @@
 .header {
-  /* border: 1px solid green; */
-
   border-bottom: 1px solid lightgray;
 
   display: grid;
@@ -11,10 +9,6 @@
 
   padding-top: 10px;
   padding-bottom: 10px;
-}
-
-.header div {
-  /* border: 1px solid red; */
 }
 
 .nav {
