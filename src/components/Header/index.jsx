@@ -22,8 +22,12 @@ export function Header() {
             </Link>
           </li>
           <li className="nav__li">
-            <Link className="nav-link" to="/">
-              Links
+            <Link
+              className="nav-link"
+              target="_blank"
+              to="https://github.com/CoderMattGH?tab=repositories"
+            >
+              GitHub
             </Link>
           </li>
         </nav>
