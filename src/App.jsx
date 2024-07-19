@@ -2,6 +2,7 @@ import ReactDom from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import { Header } from "./components/Header";
+import { Footer } from "./components/Footer";
 import { About } from "./components/About";
 import { Projects } from "./components/Projects";
 
@@ -18,6 +19,7 @@ export function App() {
           {/* <Route path="*" element={} /> */}
         </Routes>
       </main>
+      <Footer />
     </BrowserRouter>
   );
 }
