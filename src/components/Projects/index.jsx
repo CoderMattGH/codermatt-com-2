@@ -101,8 +101,11 @@ export function Projects() {
           </a>
         </p>
         <div className="project-image-container">
-          <img className="project-image" src="/images/nc-news3.png"></img>
-          <img className="project-image" src="/images/nc-news2.png"></img>
+          <img className="project-image" src="/images/nc-news5-thumb.png"></img>
+          <img
+            className="project-image-moat"
+            src="/images/nc-news2-thumb.png"
+          ></img>
         </div>
       </article>
 
@@ -154,8 +157,14 @@ export function Projects() {
           </a>
         </p>
         <div className="project-image-container">
-          <img className="project-image-moat" src="/images/moat1.png"></img>
-          <img className="project-image-moat" src="/images/moat2.png"></img>
+          <img
+            className="project-image-moat"
+            src="/images/moat1-thumb.png"
+          ></img>
+          <img
+            className="project-image-moat"
+            src="/images/moat2-thumb.png"
+          ></img>
         </div>
       </article>
     </div>
