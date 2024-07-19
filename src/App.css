@@ -11,12 +11,18 @@
 }
 
 .sub-heading {
-  padding: 5px;
+  font-size: 1.7rem;
   text-align: left;
+  margin-bottom: 5px;
 }
 
 .grid-para {
-  padding: 5px;
   text-align: left;
-  text-align: justify;
+  padding: 7px 0 7px 0;
+}
+
+.label {
+  color: rgb(49, 49, 49);
+  font-weight: bold;
+  padding-right: 5px;
 }

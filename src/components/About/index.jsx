@@ -3,49 +3,59 @@ import "./index.css";
 export function About() {
   return (
     <div className="about-container">
-      <h2 className="sub-heading">
-        I am a software developer based in Manchester, UK.
-      </h2>
+      <section className="about-section">
+        <h2 className="sub-heading">
+          Junior software developer based in Manchester, UK.
+        </h2>
+        <p className="grid-para">
+          I am a highly-motivated computer programming enthusiast who has
+          developed skills in my own free time, boot camps and through The
+          University of Manchester's Software Engineering BSc (Hons) programme.
+        </p>
+        <p className="grid-para">
+          I began programming at a very young age using my brother's old Amstrad
+          CPC 464 in BASIC. Since then, I have learnt a variety of different
+          languages, techniques and developed a deeper understanding of the
+          underlying architectures. My passion for creating things using
+          computers has only grown over time.
+        </p>
+        <p className="grid-para">
+          On this website you will find projects that I have worked on, links to
+          my GitHub, contact details and other interesting information about me.
+        </p>
+      </section>
+      <section className="about-section">
+        <h2 className="sub-heading">I possess a range of technical skills.</h2>
+        <p className="grid-para">
+          <span className="label">Languages: </span>Javascript, Java, C, HTML,
+          CSS.
+        </p>
+        <p className="grid-para">
+          <span className="label">Testing: </span>Test Driven Development (TDD),
+          Jest, Supertest, JUnit, Mockito.
+        </p>
+        <p className="grid-para">
+          <span className="label">Back-end: </span>SQL, PSQL, H2, MySQL,
+          Spring/Spring Boot.
+        </p>
+        <p className="grid-para">
+          <span className="label">Front-end: </span>React, jQuery, Thymeleaf,
+          Lighthouse and other accessibility tools.
+        </p>
+        <p className="grid-para">
+          <span className="label">Hosting: </span>Cloudflare, Netlify, Apache
+          HTTP Server, Apache Tomcat, Ubuntu Server administration.
+        </p>
+        <p className="grid-para">
+          <span className="label">Soft-skills: </span>Paired programming,
+          technical communication, SDL, agile and SCRUM methodologies.
+        </p>
+      </section>
 
-      <div className="grid-paragraph-container">
-        <div>
-          <p className="grid-para">
-            My main passion is Java, in particular the Spring Framework.
-            However, I am also skilled in web development using HTML, CSS,
-            Javascript and frameworks like React.js and JQuery.
-          </p>
-          <p className="grid-para">
-            I fully integrate the features offered by Spring into my Java
-            projects by using dependency injection, allowing me to write robust
-            classes that are highly extensible. This aids in keeping the
-            software that I write loosely coupled with high cohesion.
-          </p>
-          <p className="grid-para">
-            I understand the importance of testing, and I am versed in tools
-            including JUnit and Mockito. I write my software with testing in
-            mind by designing classes based on interfaces that can be easily
-            mocked.
-          </p>
-        </div>
-        <div>
-          <p className="grid-para">
-            I have experience using and administrating SQL databases including
-            MySQL and H2. I am adept with using ORM frameworks including
-            Hibernate and JPA in order to model database entities as objects. I
-            have experience using transactional contexts in order to achieve
-            atomicity, consistency, isolation, and durability (ACID).
-          </p>
-          <p className="grid-para">
-            I am proficient in applying common software design patterns with a
-            strong motivation to write well-structured and readable code which
-            is easily extensible. I adhere to the principles of low coupling and
-            high cohesion to write well-defined classes and functions.
-          </p>
-        </div>
-      </div>
-
-      <h2 className="contact-me">CONTACT ME</h2>
-      <p className="email-address">codermatt2000@outlook.com</p>
+      <section className="about-section">
+        <h2 className="contact-me">CONTACT ME</h2>
+        <p className="email-address">codermatt2000@outlook.com</p>
+      </section>
     </div>
   );
 }
