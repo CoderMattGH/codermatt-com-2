@@ -1,10 +1,15 @@
 .projects-container {
   padding: 10px 10px 10px 10px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 630px);
+  /* display: grid; */
+  /* grid-template-columns: repeat(auto-fit, 630px); */
+
+  display: flex;
+  flex-flow: row wrap;
+  /* max-width: 630px; */
 
   justify-content: center;
-  gap: 50px 50px;
+  align-content: center;
+  gap: 30px 30px;
 }
 
 .project-name {
@@ -41,10 +46,10 @@
   /* border-radius: 20px; */
   overflow: hidden;
   height: 280px;
-  margin: 10px 0 10px 0;
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
+  width: 100%;
 }
 
 .youtube-embed__video {
@@ -62,25 +67,29 @@
 
 .project-image {
   width: 100%;
+  /* height: 202px; */
   height: 202px;
   border: 8px solid lightgray;
   border-radius: 20px;
   object-fit: cover;
 }
 
-.project-image-moat {
-  width: 100%;
-  height: 202px;
-  border: 8px solid lightgray;
-  border-radius: 20px;
-
-  object-fit: cover;
+.project-info-container {
+  align-content: center;
 }
 
 .project-card {
   padding: 10px 20px 10px 20px;
-  /* max-width: 600px; */
 
   border: 1px solid rgb(244, 244, 244);
   border-radius: 20px;
+
+  max-width: 630px;
+  flex: 0 1 auto;
+  align-self: auto;
+
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr auto;
+  gap: 5px;
 }
