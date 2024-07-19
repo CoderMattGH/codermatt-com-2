@@ -3,7 +3,7 @@
 }
 
 .project-name {
-  /* text-align: left; */
+  font-size: 1.8rem;
 }
 
 .project-para {
@@ -70,4 +70,9 @@
   border-radius: 20px;
 
   object-fit: cover;
+}
+
+.project-card {
+  padding: 10px 0 15px 0;
+  border-bottom: 1px solid lightgray;
 }

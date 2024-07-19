@@ -1,5 +1,7 @@
 .header {
-  border: 1px solid green;
+  /* border: 1px solid green; */
+
+  border-bottom: 1px solid lightgray;
 
   display: grid;
   grid-template-columns: auto;
@@ -17,12 +19,12 @@
 
 .nav {
   list-style-type: none;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: bold;
 
   display: grid;
   grid-template-columns: auto auto auto;
-  gap: 25px;
+  gap: 35px;
   align-content: center;
 }
 

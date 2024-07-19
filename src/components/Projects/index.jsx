@@ -3,7 +3,7 @@ import "./index.css";
 export function Projects() {
   return (
     <div className="projects-container">
-      <article>
+      <article className="project-card">
         <h2 className="project-name">Voluntier</h2>
         <p className="project-para">
           Voluntier is a mobile app that I worked on as part of a team for our
@@ -54,7 +54,7 @@ export function Projects() {
         </div>
       </article>
 
-      <article>
+      <article className="project-card">
         <h2 className="project-name">NC-News</h2>
         <p className="project-para">
           NC-News is a full-stack web application that I developed on the
@@ -109,7 +109,7 @@ export function Projects() {
         </div>
       </article>
 
-      <article>
+      <article className="project-card">
         <h2 className="project-name">Matt's Online Aim Trainer</h2>
         <p className="project-para">
           Matt's Online Aim Trainer (MOAT) is a web application I created that
