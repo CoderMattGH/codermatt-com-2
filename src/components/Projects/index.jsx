@@ -268,6 +268,62 @@ export function Projects() {
             </a>
           </div>
         </article>
+
+        <article className="project-card">
+          <div className="project-description-container">
+            <h2 className="project-name">Matt's File Viewer</h2>
+            <p className="project-para">
+              Matt's File Viewer is an educational GUI application for
+              displaying file data information.
+            </p>
+            <p className="project-para">
+              The application allows viewing a file's data in an assortment of
+              different types including byte values, hexadecimal values, 8-bit
+              characters, UTF-8 characters, and UTF-16 characters.
+            </p>
+            <p className="project-info">
+              <span className="label">Tech Stack:</span> Java, Swing
+            </p>
+            <p className="project-info">
+              <span className="label">Source Code: </span>
+              <a
+                className="project-info-link"
+                target="_blank"
+                href="https://github.com/CoderMattGH/matts-file-viewer"
+              >
+                https://github.com/CoderMattGH/matts-file-viewer
+              </a>
+            </p>
+            <p className="project-info">
+              <span className="label">Download: </span>
+              <a
+                className="project-info-link"
+                target="_blank"
+                href="https://github.com/CoderMattGH/matts-file-viewer/releases/download/v1.0/MattsFileViewer.jar"
+              >
+                MattsFileViewer.jar
+              </a>
+            </p>
+          </div>
+          <div className="project-image-container">
+            <a
+              className="project-image-link"
+              onClick={() => {
+                displayFullscreenImage("/images/mfv1.png");
+              }}
+            >
+              <img className="project-image" src="/images/mfv1-thumb.png"></img>
+            </a>
+            <a
+              className="project-image-link"
+              onClick={() => {
+                displayFullscreenImage("/images/mfv2.png");
+              }}
+            >
+              <img className="project-image" src="/images/mfv2-thumb.png"></img>
+            </a>
+          </div>
+        </article>
       </div>
     </>
   );
