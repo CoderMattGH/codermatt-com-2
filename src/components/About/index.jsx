@@ -26,7 +26,7 @@ export function About() {
       </section>
       <section className="about-section">
         <h2 className="sub-heading">I possess a range of technical skills.</h2>
-        <p className="about-info">
+        <p className="about-info about-info--first">
           <span className="label">Languages: </span>Java, Javascript,
           Typescript, C, HTML, CSS.
         </p>

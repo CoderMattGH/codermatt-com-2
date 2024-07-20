@@ -23,9 +23,14 @@
 
 .about-section {
   padding: 10px 10px 10px 10px;
+  /* border: 1px solid red; */
 }
 
 .about-info {
   padding: 4px 0 4px 0;
   text-align: left;
+}
+
+.about-info--first {
+  margin-top: 3px;
 }
