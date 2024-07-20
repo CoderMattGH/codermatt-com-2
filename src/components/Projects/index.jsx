@@ -65,7 +65,7 @@ export function Projects() {
               type="video/mp4"
               width="99%"
               height="100%"
-              allow="autoplay; encrypted-media; picture-in-picture"
+              allow="autoplay; encrypted-media; picture-in-picture; accelerometer;"
               title="Keyboard Cat"
             ></embed>
           </div>
