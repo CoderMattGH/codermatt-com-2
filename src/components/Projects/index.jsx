@@ -30,11 +30,11 @@ export function Projects() {
             </p>
             <p className="project-info">
               <span className="label">Tech Stack (Front-end):</span> React
-              Native, Expo, Axios, Javascript.
+              Native, Expo, Axios, Javascript
             </p>
             <p className="project-info">
               <span className="label">Tech Stack (Back-end):</span> Typescript,
-              Express, Jest, Node-Postgres, PostgreSQL.
+              Express, Jest, Node-Postgres, PostgreSQL
             </p>
             <p className="project-info">
               <span className="label">Source Code (Front-end): </span>
@@ -82,11 +82,11 @@ export function Projects() {
             </p>
             <p className="project-info">
               <span className="label">Tech Stack (Front-end):</span> React,
-              Axios, Javascript.
+              Axios, Javascript
             </p>
             <p className="project-info">
               <span className="label">Tech Stack (Back-end):</span> Javascript,
-              Express, Jest, Node-Postgres, PostgreSQL.
+              Express, Jest, Node-Postgres, PostgreSQL
             </p>
             <p className="project-info">
               <span className="label">Source Code (Front-end): </span>
@@ -157,11 +157,11 @@ export function Projects() {
             </p>
             <p className="project-info">
               <span className="label">Tech Stack (Front-end):</span> React,
-              Javascript.
+              Javascript
             </p>
             <p className="project-info">
               <span className="label">Tech Stack (Back-end):</span> Java, Spring
-              Boot, JPA, Mockito, JUnit, H2.
+              Boot, JPA, Mockito, JUnit, H2
             </p>
             <p className="project-info">
               <span className="label">Source Code (Front-end): </span>
@@ -216,6 +216,55 @@ export function Projects() {
                 className="project-image"
                 src="/images/moat2-thumb.png"
               ></img>
+            </a>
+          </div>
+        </article>
+
+        <article className="project-card">
+          <div className="project-description-container">
+            <h2 className="project-name">Matt's Port Scanner</h2>
+            <p className="project-para">
+              Matt's Port Scanner is a TCP port scanner for Linux that uses raw
+              sockets to scan target machines very quickly. The program returns
+              a list of listening ports on the target machine.
+            </p>
+            <p className="project-para">
+              Instead of simply trying to connect to a specific port on the
+              target device using the connect() function, the program constructs
+              its own SYN packet in memory, populates all the required fields
+              and sends it to the network interface. This has the advantage of
+              being less resource intensive because fewer threads are required.
+            </p>
+            <p className="project-info">
+              <span className="label">Tech Stack:</span> C, POSIX Sockets
+            </p>
+            <p className="project-info">
+              <span className="label">Source Code: </span>
+              <a
+                className="project-info-link"
+                target="_blank"
+                href="https://github.com/CoderMattGH/matts-port-scanner"
+              >
+                https://github.com/CoderMattGH/matts-port-scanner
+              </a>
+            </p>
+          </div>
+          <div className="project-image-container">
+            <a
+              className="project-image-link"
+              onClick={() => {
+                displayFullscreenImage("/images/mps1.png");
+              }}
+            >
+              <img className="project-image" src="/images/mps1-thumb.png"></img>
+            </a>
+            <a
+              className="project-image-link"
+              onClick={() => {
+                displayFullscreenImage("/images/mps2.png");
+              }}
+            >
+              <img className="project-image" src="/images/mps2-thumb.png"></img>
             </a>
           </div>
         </article>
