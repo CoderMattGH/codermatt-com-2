@@ -25,3 +25,22 @@
   font-weight: bold;
   padding-right: 5px;
 }
+
+@media (max-width: 600px) {
+  .sub-heading {
+    font-size: 1.5rem;
+    text-align: left;
+  }
+}
+
+@media (max-width: 500px) {
+  .sub-heading {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 449px) {
+  .sub-heading {
+    font-size: 1.3rem;
+  }
+}

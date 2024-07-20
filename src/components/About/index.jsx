@@ -5,7 +5,7 @@ export function About() {
     <div className="about-container">
       <section className="about-section">
         <h2 className="sub-heading">
-          Junior software developer based in Manchester, UK.
+          Software developer based in Manchester, UK.
         </h2>
         <p className="grid-para">
           I am a highly-motivated computer programming enthusiast who has
