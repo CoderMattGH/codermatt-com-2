@@ -60,7 +60,7 @@ export function Projects() {
           <div className="youtube-embed">
             <embed
               className="youtube-embed__video"
-              src="https://www.youtube.com/embed/zE38K-jLEzc?controls=1"
+              src="https://www.youtube.com/embed/dKorROPEmF0?si=HmCtPEwzApu6rYbu?controls=1"
               wmode="transparent"
               type="video/mp4"
               width="99%"
