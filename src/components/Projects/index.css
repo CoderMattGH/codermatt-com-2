@@ -27,6 +27,7 @@
 
 .project-info-link {
   color: rgb(44, 44, 44);
+  white-space: nowrap;
 }
 
 .project-info-link:hover {
@@ -36,12 +37,16 @@
 .youtube-embed {
   /* border-radius: 20px; */
   overflow: hidden;
-  height: 280px;
+
+  height: 40vw;
+  max-height: 280px;
+  min-height: 126px;
+
   margin-left: auto;
   margin-right: auto;
   padding: 0px 4px 0px 4px;
   margin: 10px 0 4px 0;
-  width: 100.1%;
+  width: 99%;
 }
 
 .youtube-embed__video {
@@ -98,4 +103,59 @@
   grid-template-columns: auto;
   grid-template-rows: 1fr auto;
   gap: 5px;
+}
+
+@media (max-width: 500px) {
+  .projects-container {
+    gap: 20px;
+  }
+
+  .project-card {
+    padding: 12px 12px 12px 12px;
+  }
+
+  .project-image-container {
+    grid-template-columns: auto;
+    padding: 13px;
+  }
+
+  .project-image {
+    width: 100%;
+  }
+
+  .project-image-link--final {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .project-name {
+    font-size: 1.6rem;
+  }
+
+  .projects-container {
+    padding: 0px;
+    gap: 15px;
+  }
+
+  .project-card {
+    padding: 8px;
+    padding-bottom: 14px;
+  }
+
+  .project-image {
+    height: 150px;
+  }
+
+  .project-image-container {
+    padding: 5px;
+  }
+
+  .youtube-embed {
+    margin-top: 4px;
+  }
+
+  .project-info--github {
+    display: none;
+  }
 }

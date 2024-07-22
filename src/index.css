@@ -9,6 +9,8 @@ img {
 }
 
 :root {
+  min-width: 305px;
+
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 
@@ -21,4 +23,22 @@ img {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@media (max-width: 600px) {
+  :root {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 530px) {
+  :root {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 390px) {
+  :root {
+    font-size: 11px;
+  }
 }

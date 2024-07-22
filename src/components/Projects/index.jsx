@@ -36,7 +36,7 @@ export function Projects() {
               <span className="label">Tech Stack (Back-end):</span> Typescript,
               Express, Jest, Node-Postgres, PostgreSQL
             </p>
-            <p className="project-info">
+            <p className="project-info project-info--github">
               <span className="label">Source Code (Front-end): </span>
               <a
                 className="project-info-link"
@@ -46,7 +46,7 @@ export function Projects() {
                 https://github.com/CoderMattGH/vountier-fe
               </a>
             </p>
-            <p className="project-info">
+            <p className="project-info project-info--github">
               <span className="label">Source Code (Back-end): </span>
               <a
                 className="project-info-link"
@@ -88,7 +88,7 @@ export function Projects() {
               <span className="label">Tech Stack (Back-end):</span> Javascript,
               Express, Jest, Node-Postgres, PostgreSQL
             </p>
-            <p className="project-info">
+            <p className="project-info project-info--github">
               <span className="label">Source Code (Front-end): </span>
               <a
                 className="project-info-link"
@@ -98,7 +98,7 @@ export function Projects() {
                 https://github.com/CoderMattGH/nc-news-fe
               </a>
             </p>
-            <p className="project-info">
+            <p className="project-info project-info--github">
               <span className="label">Source Code (Back-end): </span>
               <a
                 className="project-info-link"
@@ -132,7 +132,7 @@ export function Projects() {
               ></img>
             </a>
             <a
-              className="project-image-link"
+              className="project-image-link project-image-link--final"
               onClick={() => {
                 displayFullscreenImage("/images/nc-news2.png");
               }}
@@ -163,7 +163,7 @@ export function Projects() {
               <span className="label">Tech Stack (Back-end):</span> Java, Spring
               Boot, JPA, Mockito, JUnit, H2
             </p>
-            <p className="project-info">
+            <p className="project-info project-info--github">
               <span className="label">Source Code (Front-end): </span>
               <a
                 className="project-info-link"
@@ -173,7 +173,7 @@ export function Projects() {
                 https://github.com/CoderMattGH/moat-fe
               </a>
             </p>
-            <p className="project-info">
+            <p className="project-info project-info--github">
               <span className="label">Source Code (Back-end): </span>
               <a
                 className="project-info-link"
@@ -207,7 +207,7 @@ export function Projects() {
               ></img>
             </a>
             <a
-              className="project-image-link"
+              className="project-image-link project-image-link--final"
               onClick={() => {
                 displayFullscreenImage("/images/moat2.png");
               }}
@@ -238,7 +238,7 @@ export function Projects() {
             <p className="project-info">
               <span className="label">Tech Stack:</span> C, POSIX Sockets
             </p>
-            <p className="project-info">
+            <p className="project-info project-info--github">
               <span className="label">Source Code: </span>
               <a
                 className="project-info-link"
@@ -259,7 +259,7 @@ export function Projects() {
               <img className="project-image" src="/images/mps1-thumb.png"></img>
             </a>
             <a
-              className="project-image-link"
+              className="project-image-link project-image-link--final"
               onClick={() => {
                 displayFullscreenImage("/images/mps2.png");
               }}
@@ -284,7 +284,7 @@ export function Projects() {
             <p className="project-info">
               <span className="label">Tech Stack:</span> Java, Swing
             </p>
-            <p className="project-info">
+            <p className="project-info project-info--github">
               <span className="label">Source Code: </span>
               <a
                 className="project-info-link"
@@ -315,7 +315,7 @@ export function Projects() {
               <img className="project-image" src="/images/mfv1-thumb.png"></img>
             </a>
             <a
-              className="project-image-link"
+              className="project-image-link project-image-link--final"
               onClick={() => {
                 displayFullscreenImage("/images/mfv2.png");
               }}

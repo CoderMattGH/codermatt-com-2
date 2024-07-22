@@ -4,20 +4,32 @@
   left: 0;
   top: 0;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.6);
 
-  display: grid;
+  /* display: grid;
   justify-content: center;
-  grid-template-columns: min(90%, 1200px);
+  grid-template-columns: min(90%, 1200px); */
 }
 
 .image-overlay-container {
-  margin-top: 5%;
+  position: absolute;
+
+  top: 45%;
+
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+  width: 100%;
+  min-width: 300px;
+  padding: 20px;
 }
 
 .project-screenshot {
+  margin-left: auto;
+  margin-right: auto;
   width: 100%;
+  max-width: 1200px;
   /* border: 0px solid rgb(219, 219, 219); */
   border-radius: 20px;
 }
