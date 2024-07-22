@@ -37,6 +37,23 @@
   margin-top: 3px;
 }
 
+.read-more-link {
+  color: #7e1919;
+}
+
+.read-more-link:hover {
+  color: #7e1919be;
+  cursor: pointer;
+}
+
+.read-more-link-p {
+  text-align: left;
+}
+
+.about-section-responsive {
+  display: none;
+}
+
 @media (max-width: 600px) {
   .about-container {
     gap: 7px;
@@ -59,5 +76,13 @@
   .about-container {
     padding: 0;
     gap: 5px;
+  }
+
+  .about-section-responsive {
+    display: block;
+  }
+
+  .about-section-unresponsive {
+    display: none;
   }
 }
