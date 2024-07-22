@@ -1,11 +1,11 @@
 .about-container {
-  /* margin-top: 5px; */
+  margin-top: 5px;
   max-width: 700px;
 
   margin-left: auto;
   margin-right: auto;
   display: grid;
-  gap: 17px;
+  gap: 25px;
 
   padding: 0 5px 0 5px;
 }
@@ -37,11 +37,13 @@
   margin-top: 3px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .about-container {
-    gap: 5px;
+    gap: 7px;
   }
+}
 
+@media (max-width: 500px) {
   .contact-me {
     margin-top: 10px;
     font-size: 1.4rem;
@@ -50,5 +52,12 @@
   .email-address {
     font-weight: bold;
     font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .about-container {
+    padding: 0;
+    gap: 5px;
   }
 }
