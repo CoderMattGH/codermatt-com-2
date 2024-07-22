@@ -36,12 +36,16 @@
 .youtube-embed {
   /* border-radius: 20px; */
   overflow: hidden;
-  height: 280px;
+
+  height: 40vw;
+  max-height: 280px;
+  min-height: 126px;
+
   margin-left: auto;
   margin-right: auto;
   padding: 0px 4px 0px 4px;
   margin: 10px 0 4px 0;
-  width: 100.1%;
+  width: 99%;
 }
 
 .youtube-embed__video {
