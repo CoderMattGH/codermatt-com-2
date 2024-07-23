@@ -4,6 +4,15 @@ import "./index.css";
 export function About() {
   const [respReadMore, setRespReadMore] = useState(false);
 
+  const PARAGRAPH_2 = `I began programming at a very young age using an old Amstrad CPC 464
+    in BASIC. Since then, I have learnt a variety of different languages,
+    techniques and developed a deeper understanding of the underlying
+    architectures. My passion for creating things using computers has only
+    grown over time.`;
+
+  const PARAGRAPH_3 = `On this website you will find projects that I have worked on, links to
+    my GitHub, contact details and other interesting information about me.`;
+
   return (
     <div className="about-container">
       <section className="about-section about-section-unresponsive">
@@ -15,17 +24,8 @@ export function About() {
           developed skills in my own free time, boot camps and through The
           University of Manchester's Software Engineering BSc (Hons) programme.
         </p>
-        <p className="grid-para grid-para-read-more">
-          I began programming at a very young age using an old Amstrad CPC 464
-          in BASIC. Since then, I have learnt a variety of different languages,
-          techniques and developed a deeper understanding of the underlying
-          architectures. My passion for creating things using computers has only
-          grown over time.
-        </p>
-        <p className="grid-para grid-para-read-more">
-          On this website you will find projects that I have worked on, links to
-          my GitHub, contact details and other interesting information about me.
-        </p>
+        <p className="grid-para grid-para-read-more">{PARAGRAPH_2}</p>
+        <p className="grid-para grid-para-read-more">{PARAGRAPH_3}</p>
       </section>
 
       <section className="about-section about-section-responsive">
@@ -51,18 +51,8 @@ export function About() {
           </p>
         ) : (
           <>
-            <p className="grid-para grid-para-read-more">
-              I began programming at a very young age using an old Amstrad CPC
-              464 in BASIC. Since then, I have learnt a variety of different
-              languages, techniques and developed a deeper understanding of the
-              underlying architectures. My passion for creating things using
-              computers has only grown over time.
-            </p>
-            <p className="grid-para grid-para-read-more">
-              On this website you will find projects that I have worked on,
-              links to my GitHub, contact details and other interesting
-              information about me.
-            </p>
+            <p className="grid-para grid-para-read-more">{PARAGRAPH_2}</p>
+            <p className="grid-para grid-para-read-more">{PARAGRAPH_3}</p>
             <p className="read-more-link-p">
               <a
                 className="read-more-link"
