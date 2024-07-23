@@ -1,4 +1,3 @@
-import ReactDom from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import { Header } from "./components/Header";
@@ -16,7 +15,7 @@ export function App() {
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="projects" element={<Projects />} />
-          {/* <Route path="*" element={} /> */}
+          <Route path="*" element={<About />} />
         </Routes>
       </main>
       <Footer />
