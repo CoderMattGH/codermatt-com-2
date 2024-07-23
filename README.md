@@ -1,6 +1,6 @@
 # CoderMatt.com
 
-This is the repository for the codermatt.com website (version 2).
+This is the repository for the codermatt.com website.
 
 ## Installation
 
@@ -9,6 +9,10 @@ This is the repository for the codermatt.com website (version 2).
 ## Running the dev server
 
 `npm run dev`
+
+## Expose the dev server to the local network
+
+`npm run dev-expose`
 
 ## Building for deployment
 
