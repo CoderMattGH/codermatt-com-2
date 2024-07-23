@@ -6,7 +6,7 @@ export function Header() {
     <header className="header">
       <div>
         <Link to="/">
-          <img className="title-img" src="./images/coder-matt-logo.svg"></img>
+          <img className="title-img" src="/images/coder-matt-logo.svg"></img>
         </Link>
       </div>
       <div>
