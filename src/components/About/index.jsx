@@ -16,11 +16,11 @@ export function About() {
           University of Manchester's Software Engineering BSc (Hons) programme.
         </p>
         <p className="grid-para grid-para-read-more">
-          I began programming at a very young age using my brother's old Amstrad
-          CPC 464 in BASIC. Since then, I have learnt a variety of different
-          languages, techniques and developed a deeper understanding of the
-          underlying architectures. My passion for creating things using
-          computers has only grown over time.
+          I began programming at a very young age using an old Amstrad CPC 464
+          in BASIC. Since then, I have learnt a variety of different languages,
+          techniques and developed a deeper understanding of the underlying
+          architectures. My passion for creating things using computers has only
+          grown over time.
         </p>
         <p className="grid-para grid-para-read-more">
           On this website you will find projects that I have worked on, links to
@@ -52,11 +52,11 @@ export function About() {
         ) : (
           <>
             <p className="grid-para grid-para-read-more">
-              I began programming at a very young age using my brother's old
-              Amstrad CPC 464 in BASIC. Since then, I have learnt a variety of
-              different languages, techniques and developed a deeper
-              understanding of the underlying architectures. My passion for
-              creating things using computers has only grown over time.
+              I began programming at a very young age using an old Amstrad CPC
+              464 in BASIC. Since then, I have learnt a variety of different
+              languages, techniques and developed a deeper understanding of the
+              underlying architectures. My passion for creating things using
+              computers has only grown over time.
             </p>
             <p className="grid-para grid-para-read-more">
               On this website you will find projects that I have worked on,
@@ -88,7 +88,7 @@ export function About() {
           Jest, Supertest, JUnit, Mockito.
         </p>
         <p className="about-info">
-          <span className="label">Back-end: </span>SQL, PSQL, H2, MySQL,
+          <span className="label">Back-end: </span>PostreSQL, MySQL, H2,
           Spring/Spring Boot.
         </p>
         <p className="about-info">
@@ -101,12 +101,14 @@ export function About() {
         </p>
         <p className="about-info">
           <span className="label">Soft-skills: </span>Paired programming,
-          technical communication, SDL, agile and SCRUM methodologies.
+          technical communication, agile and SCRUM methodologies.
         </p>
       </section>
       <section className="about-section">
         <h2 className="contact-me">CONTACT ME</h2>
-        <p className="email-address">codermatt2000@outlook.com</p>
+        <a className="contact-me-link" href="mailto:codermatt2000@outlook.com">
+          <p className="email-address">codermatt2000@outlook.com</p>
+        </a>
       </section>
     </div>
   );

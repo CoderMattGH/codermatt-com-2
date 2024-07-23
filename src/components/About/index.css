@@ -1,5 +1,5 @@
 .about-container {
-  margin-top: 5px;
+  margin-top: 10px;
   max-width: 700px;
 
   margin-left: auto;
@@ -13,6 +13,15 @@
 .contact-me {
   margin-top: 15px;
   font-size: 1.55rem;
+}
+
+.contact-me-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.contact-me-link:hover {
+  color: rgb(75, 75, 75);
 }
 
 .email-address {
