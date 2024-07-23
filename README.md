@@ -1,6 +1,6 @@
 # CoderMatt.com
 
-This is the repository for the codermatt.com website.
+My personal website.
 
 ## Installation
 
