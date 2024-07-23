@@ -67,6 +67,14 @@
   .about-container {
     gap: 7px;
   }
+
+  .about-section-responsive {
+    display: block;
+  }
+
+  .about-section-unresponsive {
+    display: none;
+  }
 }
 
 @media (max-width: 500px) {
@@ -85,13 +93,5 @@
   .about-container {
     padding: 0;
     gap: 5px;
-  }
-
-  .about-section-responsive {
-    display: block;
-  }
-
-  .about-section-unresponsive {
-    display: none;
   }
 }
