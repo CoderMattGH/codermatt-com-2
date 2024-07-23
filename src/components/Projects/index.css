@@ -59,6 +59,11 @@
   opacity: 0.9;
 }
 
+.loading-video-container {
+  height: 100%;
+  align-content: center;
+}
+
 .project-image-container {
   padding: 10px 4px 4px 4px;
   display: grid;

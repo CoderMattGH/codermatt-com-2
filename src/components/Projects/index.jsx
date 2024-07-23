@@ -1,10 +1,12 @@
 import { useState } from "react";
 import { ImageOverlay } from "../ImageOverlay";
+import { Loading } from "../Loading";
 import "./index.css";
 
 export function Projects() {
   const [showOverlay, setViewOverlay] = useState(false);
   const [fsImage, setFsImage] = useState(null);
+  const [voluntierVidLoading, setVoluntierVidLoading] = useState(true);
 
   const displayFullscreenImage = (imgSrc) => {
     setFsImage(imgSrc);
@@ -58,19 +60,27 @@ export function Projects() {
             </p>
           </div>
           <div className="youtube-embed">
-            <embed
+            {voluntierVidLoading ? (
+              <div className="loading-video-container">
+                <Loading />
+              </div>
+            ) : null}
+            <iframe
               className="youtube-embed__video"
-              src="https://www.youtube.com/embed/dKorROPEmF0?si=HmCtPEwzApu6rYbu?controls=1"
-              wmode="transparent"
-              type="video/mp4"
               width="99%"
               height="100%"
-              allow="encrypted-media"
+              src="https://www.youtube.com/embed/dKorROPEmF0"
               title="Voluntier"
-            ></embed>
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+              onLoad={() => {
+                setVoluntierVidLoading(false);
+              }}
+            ></iframe>
           </div>
         </article>
-
         <article className="project-card">
           <div className="project-description-container">
             <h2 className="project-name">NC-News</h2>
