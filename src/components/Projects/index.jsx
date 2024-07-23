@@ -43,9 +43,9 @@ export function Projects() {
               <a
                 className="project-info-link"
                 target="_blank"
-                href="https://github.com/CoderMattGH/vountier-fe"
+                href="https://github.com/CoderMattGH/voluntier-fe"
               >
-                https://github.com/CoderMattGH/vountier-fe
+                https://github.com/CoderMattGH/voluntier-fe
               </a>
             </p>
             <p className="project-info project-info--github">
@@ -53,9 +53,9 @@ export function Projects() {
               <a
                 className="project-info-link"
                 target="_blank"
-                href="https://github.com/CoderMattGH/vountier-be"
+                href="https://github.com/CoderMattGH/voluntier-be"
               >
-                https://github.com/CoderMattGH/vountier-be
+                https://github.com/CoderMattGH/voluntier-be
               </a>
             </p>
           </div>
