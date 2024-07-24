@@ -4,6 +4,10 @@ import "./index.css";
 export function About() {
   const [respReadMore, setRespReadMore] = useState(false);
 
+  const PARAGRAPH_1 = `I am a highly-motivated computer programming enthusiast who has
+    developed skills in my own free time, boot camps and through The
+    University of Manchester's Software Engineering BSc (Hons) programme.`;
+
   const PARAGRAPH_2 = `I began programming at a very young age using an old Amstrad CPC 464
     in BASIC. Since then, I have learnt a variety of different languages,
     techniques and developed a deeper understanding of the underlying
@@ -19,11 +23,7 @@ export function About() {
         <h2 className="sub-heading">
           Software developer based in Manchester, UK.
         </h2>
-        <p className="grid-para">
-          I am a highly-motivated computer programming enthusiast who has
-          developed skills in my own free time, boot camps and through The
-          University of Manchester's Software Engineering BSc (Hons) programme.
-        </p>
+        <p className="grid-para">{PARAGRAPH_1}</p>
         <p className="grid-para grid-para-read-more">{PARAGRAPH_2}</p>
         <p className="grid-para grid-para-read-more">{PARAGRAPH_3}</p>
       </section>
@@ -32,11 +32,7 @@ export function About() {
         <h2 className="sub-heading">
           Software developer based in Manchester, UK.
         </h2>
-        <p className="grid-para">
-          I am a highly-motivated computer programming enthusiast who has
-          developed skills in my own free time, boot camps and through The
-          University of Manchester's Software Engineering BSc (Hons) programme.
-        </p>
+        <p className="grid-para">{PARAGRAPH_1}</p>
 
         {!respReadMore ? (
           <p className="read-more-link-p">
