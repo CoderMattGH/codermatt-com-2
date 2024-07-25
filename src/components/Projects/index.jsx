@@ -133,7 +133,7 @@ export function Projects() {
             <a
               className="project-image-link"
               onClick={() => {
-                displayFullscreenImage("/images/nc-news1.png");
+                displayFullscreenImage("/images/nc-news1.jpg");
               }}
             >
               <img
@@ -144,7 +144,7 @@ export function Projects() {
             <a
               className="project-image-link project-image-link--final"
               onClick={() => {
-                displayFullscreenImage("/images/nc-news2.png");
+                displayFullscreenImage("/images/nc-news2.jpg");
               }}
             >
               <img
@@ -208,7 +208,7 @@ export function Projects() {
             <a
               className="project-image-link"
               onClick={() => {
-                displayFullscreenImage("/images/moat1.png");
+                displayFullscreenImage("/images/moat1.jpg");
               }}
             >
               <img
@@ -219,7 +219,7 @@ export function Projects() {
             <a
               className="project-image-link project-image-link--final"
               onClick={() => {
-                displayFullscreenImage("/images/moat2.png");
+                displayFullscreenImage("/images/moat2.jpg");
               }}
             >
               <img
@@ -263,7 +263,7 @@ export function Projects() {
             <a
               className="project-image-link"
               onClick={() => {
-                displayFullscreenImage("/images/mps1.png");
+                displayFullscreenImage("/images/mps1.jpg");
               }}
             >
               <img className="project-image" src="/images/mps1-thumb.png"></img>
@@ -271,7 +271,7 @@ export function Projects() {
             <a
               className="project-image-link project-image-link--final"
               onClick={() => {
-                displayFullscreenImage("/images/mps2.png");
+                displayFullscreenImage("/images/mps2.jpg");
               }}
             >
               <img className="project-image" src="/images/mps2-thumb.png"></img>
@@ -319,7 +319,7 @@ export function Projects() {
             <a
               className="project-image-link"
               onClick={() => {
-                displayFullscreenImage("/images/mfv1.png");
+                displayFullscreenImage("/images/mfv1.jpg");
               }}
             >
               <img className="project-image" src="/images/mfv1-thumb.png"></img>
@@ -327,7 +327,7 @@ export function Projects() {
             <a
               className="project-image-link project-image-link--final"
               onClick={() => {
-                displayFullscreenImage("/images/mfv2.png");
+                displayFullscreenImage("/images/mfv2.jpg");
               }}
             >
               <img className="project-image" src="/images/mfv2-thumb.png"></img>
