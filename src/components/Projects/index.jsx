@@ -81,79 +81,6 @@ export function Projects() {
             ></iframe>
           </div>
         </article>
-        <article className="project-card">
-          <div className="project-description-container">
-            <h2 className="project-name">NC-News</h2>
-            <p className="project-para">
-              NC-News is a full-stack web application that I developed on the
-              NorthCoders software engineering boot camp. It is a social news
-              aggregation, web content rating and discussion application
-              similiar to Reddit.
-            </p>
-            <p className="project-info">
-              <span className="label">Tech Stack (Front-end):</span> React,
-              Axios, Javascript
-            </p>
-            <p className="project-info">
-              <span className="label">Tech Stack (Back-end):</span> Javascript,
-              Express, Jest, Node-Postgres, PostgreSQL
-            </p>
-            <p className="project-info project-info--github">
-              <span className="label">Source Code (Front-end): </span>
-              <a
-                className="project-info-link"
-                target="_blank"
-                href="https://github.com/CoderMattGH/nc-news-fe"
-              >
-                https://github.com/CoderMattGH/nc-news-fe
-              </a>
-            </p>
-            <p className="project-info project-info--github">
-              <span className="label">Source Code (Back-end): </span>
-              <a
-                className="project-info-link"
-                target="_blank"
-                href="https://github.com/CoderMattGH/nc-news-be"
-              >
-                https://github.com/CoderMattGH/nc-news-be
-              </a>
-            </p>
-            <p className="project-info">
-              <span className="label">Link: </span>
-              <a
-                className="project-info-link"
-                target="_blank"
-                href="https://nc-news.codermatt.com/"
-              >
-                https://nc-news.codermatt.com/
-              </a>
-            </p>
-          </div>
-          <div className="project-image-container">
-            <a
-              className="project-image-link"
-              onClick={() => {
-                displayFullscreenImage("/images/nc-news1.jpg");
-              }}
-            >
-              <img
-                className="project-image"
-                src="/images/nc-news1-thumb.png"
-              ></img>
-            </a>
-            <a
-              className="project-image-link project-image-link--final"
-              onClick={() => {
-                displayFullscreenImage("/images/nc-news2.jpg");
-              }}
-            >
-              <img
-                className="project-image"
-                src="/images/nc-news2-thumb.png"
-              ></img>
-            </a>
-          </div>
-        </article>
 
         <article className="project-card">
           <div className="project-description-container">
@@ -225,6 +152,80 @@ export function Projects() {
               <img
                 className="project-image"
                 src="/images/moat2-thumb.png"
+              ></img>
+            </a>
+          </div>
+        </article>
+
+        <article className="project-card">
+          <div className="project-description-container">
+            <h2 className="project-name">NC-News</h2>
+            <p className="project-para">
+              NC-News is a full-stack web application that I developed on the
+              NorthCoders software engineering boot camp. It is a social news
+              aggregation, web content rating and discussion application
+              similiar to Reddit.
+            </p>
+            <p className="project-info">
+              <span className="label">Tech Stack (Front-end):</span> React,
+              Axios, Javascript
+            </p>
+            <p className="project-info">
+              <span className="label">Tech Stack (Back-end):</span> Javascript,
+              Express, Jest, Node-Postgres, PostgreSQL
+            </p>
+            <p className="project-info project-info--github">
+              <span className="label">Source Code (Front-end): </span>
+              <a
+                className="project-info-link"
+                target="_blank"
+                href="https://github.com/CoderMattGH/nc-news-fe"
+              >
+                https://github.com/CoderMattGH/nc-news-fe
+              </a>
+            </p>
+            <p className="project-info project-info--github">
+              <span className="label">Source Code (Back-end): </span>
+              <a
+                className="project-info-link"
+                target="_blank"
+                href="https://github.com/CoderMattGH/nc-news-be"
+              >
+                https://github.com/CoderMattGH/nc-news-be
+              </a>
+            </p>
+            <p className="project-info">
+              <span className="label">Link: </span>
+              <a
+                className="project-info-link"
+                target="_blank"
+                href="https://nc-news.codermatt.com/"
+              >
+                https://nc-news.codermatt.com/
+              </a>
+            </p>
+          </div>
+          <div className="project-image-container">
+            <a
+              className="project-image-link"
+              onClick={() => {
+                displayFullscreenImage("/images/nc-news1.jpg");
+              }}
+            >
+              <img
+                className="project-image"
+                src="/images/nc-news1-thumb.png"
+              ></img>
+            </a>
+            <a
+              className="project-image-link project-image-link--final"
+              onClick={() => {
+                displayFullscreenImage("/images/nc-news2.jpg");
+              }}
+            >
+              <img
+                className="project-image"
+                src="/images/nc-news2-thumb.png"
               ></img>
             </a>
           </div>
