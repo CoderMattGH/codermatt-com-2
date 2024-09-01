@@ -233,6 +233,55 @@ export function Projects() {
 
         <article className="project-card">
           <div className="project-description-container">
+            <h2 className="project-name">Matt's Password Manager</h2>
+            <p className="project-para">
+              Matt's Password Manager (MPM) is a password management utility for
+              Windows operating systems. It is an offline, lightweight,
+              multi-threaded GUI application that uses the 128 bit AES
+              encryption algorithm to save a user's passwords.
+            </p>
+            <p className="project-para">
+              The application uses a Model View Presenter (MVP) design pattern
+              to isolate different layers of the application to facilitate
+              maintainability and testing.
+            </p>
+            <p className="project-info">
+              <span className="label">Tech Stack:</span> C#, Windows Forms, .NET
+              Core 8.0, xUnit
+            </p>
+            <p className="project-info project-info--github">
+              <span className="label">Source Code: </span>
+              <a
+                className="project-info-link"
+                target="_blank"
+                href="https://github.com/CoderMattGH/matts-password-manager"
+              >
+                https://github.com/CoderMattGH/matts-password-manager
+              </a>
+            </p>
+          </div>
+          <div className="project-image-container">
+            <a
+              className="project-image-link"
+              onClick={() => {
+                displayFullscreenImage("/images/mpm1.jpg");
+              }}
+            >
+              <img className="project-image" src="/images/mpm1-thumb.png"></img>
+            </a>
+            <a
+              className="project-image-link project-image-link--final"
+              onClick={() => {
+                displayFullscreenImage("/images/mpm2.jpg");
+              }}
+            >
+              <img className="project-image" src="/images/mpm2-thumb.png"></img>
+            </a>
+          </div>
+        </article>
+
+        <article className="project-card">
+          <div className="project-description-container">
             <h2 className="project-name">Matt's Port Scanner</h2>
             <p className="project-para">
               Matt's Port Scanner is a TCP port scanner for Linux that uses raw
