@@ -6,13 +6,12 @@ export function About() {
 
   const PARAGRAPH_1 = `I am a highly-motivated computer programming enthusiast who has
     developed skills in my own free time, boot camps and through The
-    University of Manchester's Software Engineering BSc (Hons) programme.`;
+    University of Manchester's Software Engineering programme.`;
 
   const PARAGRAPH_2 = `I began programming at a very young age using an old Amstrad CPC 464
     in BASIC. Since then, I have learnt a variety of different languages,
     techniques and developed a deeper understanding of the underlying
-    architectures. My passion for creating things using computers has only
-    grown over time.`;
+    architectures.`;
 
   const PARAGRAPH_3 = `On this website you will find projects that I have worked on, links to
     my GitHub, contact details and other interesting information about me.`;
@@ -67,15 +66,15 @@ export function About() {
         <h2 className="sub-heading">I possess a range of technical skills.</h2>
         <p className="about-info about-info--first">
           <span className="label">Languages: </span>Java, Javascript,
-          Typescript, C, HTML, CSS.
+          Typescript, C#, C, HTML, CSS.
         </p>
         <p className="about-info">
           <span className="label">Testing: </span>Test Driven Development (TDD),
-          Jest, Supertest, JUnit, Mockito.
+          Jest, Supertest, JUnit, Mockito, xUnit.
         </p>
         <p className="about-info">
           <span className="label">Back-end: </span>PostreSQL, MySQL, H2,
-          Spring/Spring Boot.
+          Spring/Spring Boot, .NET Core.
         </p>
         <p className="about-info">
           <span className="label">Front-end: </span>React, jQuery, Thymeleaf,
