@@ -259,6 +259,16 @@ export function Projects() {
                 https://github.com/CoderMattGH/matts-password-manager
               </a>
             </p>
+            <p className="project-info">
+              <span className="label">Download: </span>
+              <a
+                className="project-info-link"
+                target="_blank"
+                href="https://github.com/CoderMattGH/matts-password-manager/releases/download/v0.1/MPMv0.1.zip"
+              >
+                MPMv0.1.zip
+              </a>
+            </p>
           </div>
           <div className="project-image-container">
             <a
