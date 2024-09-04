@@ -25,7 +25,7 @@ export function Projects() {
             <h2 className="project-name">Voluntier</h2>
             <p className="project-para">
               Voluntier is a mobile app that I worked on as part of a team for
-              our final project on the NorthCoders software engineering boot
+              our final project on the Northcoders software engineering boot
               camp. The app aims to connect volunteers with charity
               organisations that need help whilst also gamifying the experience
               by offering the user achievement badges and leader-boards.
@@ -162,9 +162,9 @@ export function Projects() {
             <h2 className="project-name">NC-News</h2>
             <p className="project-para">
               NC-News is a full-stack web application that I developed on the
-              NorthCoders software engineering boot camp. It is a social news
-              aggregation, web content rating and discussion application
-              similiar to Reddit.
+              Northcoders software engineering boot camp. It is a social news
+              aggregation, web content rating and discussion application similar
+              to Reddit.
             </p>
             <p className="project-info">
               <span className="label">Tech Stack (Front-end):</span> React,
