@@ -87,7 +87,6 @@ export function About() {
       </section>
 
       <section className="tile-container" id="contact-section">
-        <h2 className="sub-heading">Contact</h2>
         <a className="contact-me-link" href="mailto:codermatt2000@outlook.com">
           <p className="email-address">codermatt2000@outlook.com</p>
         </a>
