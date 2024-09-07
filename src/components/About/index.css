@@ -1,11 +1,11 @@
 .about-container {
-  max-width: 700px;
-
   padding: 10px;
 
-  margin-left: auto;
-  margin-right: auto;
-  display: grid;
+  justify-content: center;
+  align-content: center;
+
+  display: flex;
+  flex-flow: row wrap;
   gap: 25px;
 }
 
@@ -14,10 +14,16 @@
   padding-top: 10px;
 }
 
+#contact-section {
+  border: 0;
+  /* Force on own line */
+  flex-basis: 100%;
+  max-width: 100%;
+}
+
 .contact-me-link {
   text-decoration: none;
   color: inherit;
-  /* color: rgb(0, 0, 0); */
 }
 
 .contact-me-link:hover {
@@ -25,7 +31,6 @@
 }
 
 .email-address {
-  /* font-weight: bold; */
   font-size: 1.6rem;
 }
 
@@ -38,6 +43,10 @@
 
   border: 1px solid rgb(218, 218, 218);
   border-radius: 20px;
+
+  max-width: 630px;
+  flex: 0 1 auto;
+  align-self: auto;
 }
 
 .about-info {
