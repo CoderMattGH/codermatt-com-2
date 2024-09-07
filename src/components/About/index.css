@@ -47,6 +47,12 @@
   max-width: 630px;
   flex: 0 1 auto;
   align-self: auto;
+
+  transition: transform 0.3s ease-in-out;
+}
+
+.about-section:hover {
+  transform: scale(1.01);
 }
 
 .about-info {

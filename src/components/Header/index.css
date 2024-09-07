@@ -31,6 +31,15 @@
   text-decoration: none;
 }
 
+.title-img {
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.title-img:hover {
+  /* transform: scale(1.01); */
+  opacity: 0.8;
+}
+
 @media (max-width: 600px) {
   .title-img {
     padding-left: 10px;
