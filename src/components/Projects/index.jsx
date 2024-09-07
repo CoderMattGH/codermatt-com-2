@@ -19,11 +19,11 @@ export function Projects() {
         <ImageOverlay setViewOverlay={setViewOverlay} fsImage={fsImage} />
       ) : null}
 
-      <div className="projects-container">
-        <article className="project-card">
+      <div className="page-container">
+        <article className="tile-container project-card">
           <div className="project-description-container">
-            <h2 className="project-name">Voluntier</h2>
-            <p className="project-para">
+            <h2 className="sub-heading">Voluntier</h2>
+            <p className="tile-para">
               Voluntier is a mobile app that I worked on as part of a team for
               our final project on the Northcoders software engineering boot
               camp. The app aims to connect volunteers with charity
@@ -82,10 +82,10 @@ export function Projects() {
           </div>
         </article>
 
-        <article className="project-card">
+        <article className="tile-container project-card">
           <div className="project-description-container">
-            <h2 className="project-name">Matt's Online Aim Trainer</h2>
-            <p className="project-para">
+            <h2 className="sub-heading">Matt's Online Aim Trainer</h2>
+            <p className="tile-para">
               Matt's Online Aim Trainer (MOAT) is a web application I created
               that provides an aim-training service for gamers. The game
               consists of randomly appearing targets that the user must click in
@@ -157,10 +157,10 @@ export function Projects() {
           </div>
         </article>
 
-        <article className="project-card">
+        <article className="tile-container project-card">
           <div className="project-description-container">
-            <h2 className="project-name">NC-News</h2>
-            <p className="project-para">
+            <h2 className="sub-heading">NC-News</h2>
+            <p className="tile-para">
               NC-News is a full-stack web application that I developed on the
               Northcoders software engineering boot camp. It is a social news
               aggregation, web content rating and discussion application similar
@@ -231,16 +231,16 @@ export function Projects() {
           </div>
         </article>
 
-        <article className="project-card">
+        <article className="tile-container project-card">
           <div className="project-description-container">
-            <h2 className="project-name">Matt's Password Manager</h2>
-            <p className="project-para">
+            <h2 className="sub-heading">Matt's Password Manager</h2>
+            <p className="tile-para">
               Matt's Password Manager (MPM) is a password management utility for
               Windows operating systems. It is an offline, lightweight,
               multi-threaded GUI application that uses the 128 bit AES
               encryption algorithm to save a user's passwords.
             </p>
-            <p className="project-para">
+            <p className="tile-para">
               The application uses a Model View Presenter (MVP) design pattern
               to isolate different layers of the application to facilitate
               maintainability and testing.
@@ -290,15 +290,15 @@ export function Projects() {
           </div>
         </article>
 
-        <article className="project-card">
+        <article className="tile-container project-card">
           <div className="project-description-container">
-            <h2 className="project-name">Matt's Port Scanner</h2>
-            <p className="project-para">
+            <h2 className="sub-heading">Matt's Port Scanner</h2>
+            <p className="tile-para">
               Matt's Port Scanner is a TCP port scanner for Linux that uses raw
               sockets to scan target machines very quickly. The program returns
               a list of listening ports on the target machine.
             </p>
-            <p className="project-para">
+            <p className="tile-para">
               Instead of simply trying to connect to a specific port on the
               target device using the connect() function, the program constructs
               its own SYN packet in memory, populates all the required fields
@@ -339,14 +339,14 @@ export function Projects() {
           </div>
         </article>
 
-        <article className="project-card">
+        <article className="tile-container project-card">
           <div className="project-description-container">
-            <h2 className="project-name">Matt's File Viewer</h2>
-            <p className="project-para">
+            <h2 className="sub-heading">Matt's File Viewer</h2>
+            <p className="tile-para">
               Matt's File Viewer is an educational GUI application for
               displaying file data information.
             </p>
-            <p className="project-para">
+            <p className="tile-para">
               The application allows viewing a file's data in an assortment of
               different types including byte values, hexadecimal values, 8-bit
               characters, UTF-8 characters, and UTF-16 characters.
