@@ -19,18 +19,14 @@ export function About() {
   return (
     <div className="about-container">
       <section className="about-section about-section-unresponsive">
-        <h2 className="sub-heading">
-          Software developer based in Manchester, UK.
-        </h2>
+        <h2 className="sub-heading">About</h2>
         <p className="grid-para">{PARAGRAPH_1}</p>
         <p className="grid-para grid-para-read-more">{PARAGRAPH_2}</p>
         <p className="grid-para grid-para-read-more">{PARAGRAPH_3}</p>
       </section>
 
       <section className="about-section about-section-responsive">
-        <h2 className="sub-heading">
-          Software developer based in Manchester, UK.
-        </h2>
+        <h2 className="sub-heading">About</h2>
         <p className="grid-para">{PARAGRAPH_1}</p>
 
         {!respReadMore ? (
@@ -63,7 +59,7 @@ export function About() {
       </section>
 
       <section className="about-section">
-        <h2 className="sub-heading">I possess a range of technical skills.</h2>
+        <h2 className="sub-heading">Technical Skills</h2>
         <p className="about-info about-info--first">
           <span className="label">Languages: </span>Java, Javascript,
           Typescript, C#, C, HTML, CSS.
@@ -89,8 +85,9 @@ export function About() {
           technical communication, agile and SCRUM methodologies.
         </p>
       </section>
+
       <section className="about-section">
-        <h2 className="contact-me">CONTACT ME</h2>
+        <h2 className="sub-heading">Contact</h2>
         <a className="contact-me-link" href="mailto:codermatt2000@outlook.com">
           <p className="email-address">codermatt2000@outlook.com</p>
         </a>
