@@ -17,17 +17,17 @@ export function About() {
     my GitHub, contact details and other interesting information about me.`;
 
   return (
-    <div className="about-container">
-      <section className="about-section about-section-unresponsive">
+    <div className="page-container">
+      <section className="tile-container about-section-unresponsive">
         <h2 className="sub-heading">About</h2>
-        <p className="grid-para">{PARAGRAPH_1}</p>
-        <p className="grid-para grid-para-read-more">{PARAGRAPH_2}</p>
-        <p className="grid-para grid-para-read-more">{PARAGRAPH_3}</p>
+        <p className="tile-para">{PARAGRAPH_1}</p>
+        <p className="tile-para grid-para-read-more">{PARAGRAPH_2}</p>
+        <p className="tile-para grid-para-read-more">{PARAGRAPH_3}</p>
       </section>
 
-      <section className="about-section about-section-responsive">
+      <section className="tile-container about-section-responsive">
         <h2 className="sub-heading">About</h2>
-        <p className="grid-para">{PARAGRAPH_1}</p>
+        <p className="tile-para">{PARAGRAPH_1}</p>
 
         {!respReadMore ? (
           <p className="read-more-link-p">
@@ -42,8 +42,8 @@ export function About() {
           </p>
         ) : (
           <>
-            <p className="grid-para grid-para-read-more">{PARAGRAPH_2}</p>
-            <p className="grid-para grid-para-read-more">{PARAGRAPH_3}</p>
+            <p className="tile-para grid-para-read-more">{PARAGRAPH_2}</p>
+            <p className="tile-para grid-para-read-more">{PARAGRAPH_3}</p>
             <p className="read-more-link-p">
               <a
                 className="read-more-link"
@@ -58,7 +58,7 @@ export function About() {
         )}
       </section>
 
-      <section className="about-section">
+      <section className="tile-container">
         <h2 className="sub-heading">Technical Skills</h2>
         <p className="about-info about-info--first">
           <span className="label">Languages: </span>Java, Javascript,
@@ -86,7 +86,7 @@ export function About() {
         </p>
       </section>
 
-      <section className="about-section" id="contact-section">
+      <section className="tile-container" id="contact-section">
         <h2 className="sub-heading">Contact</h2>
         <a className="contact-me-link" href="mailto:codermatt2000@outlook.com">
           <p className="email-address">codermatt2000@outlook.com</p>

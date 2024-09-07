@@ -24,8 +24,8 @@
 .project-screenshot {
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
-  max-width: 1200px;
+  max-width: 100%;
+
   margin-top: 30px;
   max-height: 90vh;
   border-radius: 20px;
