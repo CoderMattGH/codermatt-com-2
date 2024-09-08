@@ -4,17 +4,18 @@ import "./index.css";
 export function About() {
   const [respReadMore, setRespReadMore] = useState(false);
 
-  const PARAGRAPH_1 = `I am a highly-motivated computer programming enthusiast who has
-    developed skills in my own free time, boot camps and through The
-    University of Manchester's Software Engineering programme.`;
+  const PARAGRAPH_1 = `I am a passionate and highly motivated programming enthusiast, 
+      having developed my skills through self-learning, coding boot camps, and 
+      The University of Manchester's Software Engineering program.`;
 
-  const PARAGRAPH_2 = `I began programming at a very young age using an old Amstrad CPC 464
-    in BASIC. Since then, I have learnt a variety of different languages,
-    techniques and developed a deeper understanding of the underlying
-    architectures.`;
+  const PARAGRAPH_2 = `My journey began at a very young age, programming in BASIC on 
+      an old Amstrad CPC 464. Since then, I’ve expanded my knowledge across 
+      various programming languages, techniques, and gained a deeper understanding 
+      of underlying system architectures.`;
 
-  const PARAGRAPH_3 = `On this website you will find projects that I have worked on, links to
-    my GitHub, contact details and other interesting information about me.`;
+  const PARAGRAPH_3 = `On this website, you'll find a showcase of my projects, 
+      links to my GitHub, contact details, and other interesting information about 
+      my work and interests.`;
 
   return (
     <div className="page-container">
@@ -88,7 +89,7 @@ export function About() {
 
       <section className="tile-container" id="contact-section">
         <a className="contact-me-link" href="mailto:codermatt2000@outlook.com">
-          <p className="email-address">codermatt2000@outlook.com</p>
+          codermatt2000@outlook.com
         </a>
       </section>
     </div>

@@ -11,7 +11,7 @@
 #contact-section:hover {
   /* Override animation */
   box-shadow: none;
-  color: rgb(85, 85, 85);
+  transform: none;
 }
 
 #contact-title {
@@ -24,6 +24,12 @@
 
   font-size: 2.3rem;
   font-weight: bold;
+
+  transition: color 0.25s ease-in-out;
+}
+
+.contact-me-link:hover {
+  color: rgb(85, 85, 85);
 }
 
 .about-sub-heading {

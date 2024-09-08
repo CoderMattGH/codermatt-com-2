@@ -24,11 +24,14 @@ export function Projects() {
           <div className="project-description-container">
             <h2 className="sub-heading">Voluntier</h2>
             <p className="tile-para">
-              Voluntier is a mobile app that I worked on as part of a team for
-              our final project on the Northcoders software engineering boot
-              camp. The app aims to connect volunteers with charity
-              organisations that need help whilst also gamifying the experience
-              by offering the user achievement badges and leader-boards.
+              Voluntier is a mobile app I helped develop as part of a team,
+              designed to connect volunteers with charitable organizations. The
+              app enhances user engagement by incorporating gamification
+              features like achievement badges and leaderboards.
+            </p>
+            <p className="tile-para">
+              It’s a full-stack RESTful web application, utilizing JSON Web
+              Tokens (JWT) for user authentication and authorization.
             </p>
             <p className="project-info">
               <span className="label">Tech Stack (Front-end):</span> React
@@ -86,11 +89,14 @@ export function Projects() {
           <div className="project-description-container">
             <h2 className="sub-heading">Matt's Online Aim Trainer</h2>
             <p className="tile-para">
-              Matt's Online Aim Trainer (MOAT) is a web application I created
-              that provides an aim-training service for gamers. The game
-              consists of randomly appearing targets that the user must click in
-              order to accrue points. The application provides a leader-board
-              and performance statistics.
+              MOAT is an aim trainer game where users click on-screen targets to
+              earn points and compete on online leaderboards.
+            </p>
+            <p className="tile-para">
+              It's built as a full-stack RESTful web application, utilizing
+              Spring Security for user authentication and authorization. The
+              server generates a JWT, which the client attaches to HTTP headers
+              to access secured API endpoints.
             </p>
             <p className="project-info">
               <span className="label">Tech Stack (Front-end):</span> React,
@@ -98,7 +104,7 @@ export function Projects() {
             </p>
             <p className="project-info">
               <span className="label">Tech Stack (Back-end):</span> Java, Spring
-              Boot, JPA, Mockito, JUnit, H2
+              Boot, Spring Security, JPA, JUnit, PostgreSQL
             </p>
             <p className="project-info project-info--github">
               <span className="label">Source Code (Front-end): </span>
@@ -161,10 +167,10 @@ export function Projects() {
           <div className="project-description-container">
             <h2 className="sub-heading">NC-News</h2>
             <p className="tile-para">
-              NC-News is a full-stack web application that I developed on the
-              Northcoders software engineering boot camp. It is a social news
-              aggregation, web content rating and discussion application similar
-              to Reddit.
+              NC-News is a full-stack web application designed for social news
+              aggregation, content rating, and discussions, similar to Reddit.
+              The app features a fully responsive design, automatically
+              adjusting its layout to fit different screen sizes and devices.
             </p>
             <p className="project-info">
               <span className="label">Tech Stack (Front-end):</span> React,
@@ -343,13 +349,15 @@ export function Projects() {
           <div className="project-description-container">
             <h2 className="sub-heading">Matt's File Viewer</h2>
             <p className="tile-para">
-              Matt's File Viewer is an educational GUI application for
-              displaying file data information.
+              Matt's File Viewer is an educational GUI application designed to
+              display file data in various formats, including byte values,
+              hexadecimal values, 8-bit characters, UTF-8 characters, and UTF-16
+              characters.
             </p>
             <p className="tile-para">
-              The application allows viewing a file's data in an assortment of
-              different types including byte values, hexadecimal values, 8-bit
-              characters, UTF-8 characters, and UTF-16 characters.
+              The application is built using the Model-View-Controller (MVC)
+              design pattern, promoting separation of concerns for easier
+              maintenance and testing.
             </p>
             <p className="project-info">
               <span className="label">Tech Stack:</span> Java, Swing
