@@ -8,10 +8,9 @@ export function About() {
       having developed my skills through self-learning, coding boot camps, and 
       The University of Manchester's Software Engineering program.`;
 
-  const PARAGRAPH_2 = `My journey began at a very young age, programming in BASIC on 
-      an old Amstrad CPC 464. Since then, I’ve expanded my knowledge across 
-      various programming languages, techniques, and gained a deeper understanding 
-      of underlying system architectures.`;
+  const PARAGRAPH_2 = `My journey began at a very young age writing simple programs 
+      in BASIC. Since then, I’ve expanded my knowledge across various programming 
+      languages, techniques, and gained a deeper understanding of underlying system architectures.`;
 
   const PARAGRAPH_3 = `On this website, you'll find a showcase of my projects, 
       links to my GitHub, contact details, and other interesting information about 
